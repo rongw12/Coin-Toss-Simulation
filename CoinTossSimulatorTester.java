@@ -1,11 +1,3 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CS 455 PA1
-// Fall 2020
-
-// This file is created by me, Rong Wang.
-// Starts from empty.
-
 /**
  *Note for CoinSimViewer.list
  *
