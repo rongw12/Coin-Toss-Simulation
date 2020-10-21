@@ -1,11 +1,3 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CS 455 PA1
-// Fall 2020
-
-// This file is created by me, Rong Wang.
-// Starts from empty.
-
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
@@ -60,8 +52,8 @@ public class CoinSimComponent extends JComponent
    public static final int SEGMENT = (int)(FRAMEWIDTH/4); // x in the picture, the distance from the left of the frame to the center of the first bar. 
    */
    
-   public static final int BARWIDTH = 50; // bw in the picture 
-   public static final int VERTICALBUFFER = 30; // vb in the picture, the vertical buffer
+   private static final int BARWIDTH = 50; // bw in the picture 
+   private static final int VERTICALBUFFER = 30; // vb in the picture, the vertical buffer
    
    private int frameWidth; // frame size, using getWidth() to get the width from the viewer.
    private int frameHeight;
