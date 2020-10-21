@@ -1,9 +1,3 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CS 455 PA1
-// Fall 2020
-
-// we included the import statements for you
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -15,12 +9,6 @@ import java.awt.geom.Rectangle2D;
  * Bar class
  * A labeled bar that can serve as a single bar in a bar graph.
  * The text for the label is centered under the bar.
- * 
- * NOTE: we have provided the public interface for this class. Do not change
- * the public interface. You can add private instance variables, constants,
- * and private methods to the class. You will also be completing the
- * implementation of the methods given.
- * 
  */
 public class Bar { 
 
