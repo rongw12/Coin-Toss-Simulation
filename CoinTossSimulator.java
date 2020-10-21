@@ -1,30 +1,19 @@
-// Name: Rong Wang
-// USC NetID: rwang424
-// CS 455 PA1
-// Fall 2020
-
 /**
  * class CoinTossSimulator
  * 
  * Simulates trials of repeatedly tossing two coins and allows the user to access the
  * cumulative results.
  * 
- * NOTE: we have provided the public interface for this class.  Do not change
- * the public interface.  You can add private instance variables, constants, 
- * and private methods to the class.  You will also be completing the 
- * implementation of the methods given. 
- * 
  * Invariant: getNumTrials() = getTwoHeads() + getTwoTails() + getHeadTails()
  * 
  */
 
 import java.util.Random;
-//The java random number generator. See section 6.9 of the textbook for examples of its use. 
+//The java random number generator. 
 //One thing to note about Random: it's a class that through a sequence of method calls generates a sequence of values that 
 //depend on the internal state of the object (in this way it is similar to Scanner). 
-//Students often want to create a new Random object every time they want a new random number. Don't do that. 
-//Instead, create one Random object in the program, and whenever you want a new random number you make another call to nextInt on that same object. 
-//(If you create a Random object every time you are not generating a pseudo-random sequence, although it will appear that you are.)
+//Create one Random object in the program, and make another call to nextInt on that same object whenever want a new random number. 
+//(creating a Random object every time is not generating a pseudo-random sequence, although it will appear that it is.)
 
 public class CoinTossSimulator {
    private int trials, twoHead, twoTail, headTail;
